@@ -2,14 +2,14 @@
     "version" : 2,
     "builds" :[
         {
-            "src" : "src/main/resources/*.jar",
+            "src" : "target/*.jar",
             "use" : "java:11"
         }
     ],
     "routes" : [
         {
             "src" : "/(.*)",
-            "dest" : "src/main/resources/links-0.0.1-SNAPSHOT.jar"
+            "dest" : "target/links-0.0.1-SNAPSHOT.jar"
         }
     ]
 }
