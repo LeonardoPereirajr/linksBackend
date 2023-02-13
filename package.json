@@ -1,0 +1,12 @@
+{
+  "name": "links",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Project for Spring Boot - Save Links",
+
+  "devDependencies": {
+    "supabase": "^1.37.1"
+  },
+  "scripts": {
+    "build": "npm run"
+  }
+}
